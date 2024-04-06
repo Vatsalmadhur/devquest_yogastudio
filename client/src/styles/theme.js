@@ -9,7 +9,6 @@ const theme = extendTheme({
       400: "#4C566A",
     },
     snow: {
-      100: "#D8DEE9",
       200: "#E5E9F0",
       300: "#ECEFF4",
       400: "#FFFFFF",
