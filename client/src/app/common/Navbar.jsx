@@ -40,6 +40,11 @@ export default function Navbar() {
           mx="auto"
         >
           <Logo />
+          <HStack display="flex" alignItems="center" spacing={4}>
+            {["Videos", "Programme", "Live", "Magzine", "Academy"].map((e) => {
+              return <chakra.span>{e}</chakra.span>
+            })}
+          </HStack>
           <HStack display="flex" alignItems="center" spacing={1}>
             <HStack
               spacing={1}
