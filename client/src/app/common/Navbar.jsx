@@ -42,7 +42,7 @@ export default function Navbar() {
           <Logo />
           <HStack display="flex" alignItems="center" spacing={4}>
             {["Videos", "Programme", "Live", "Magzine", "Academy"].map((e) => {
-              return <chakra.span>{e}</chakra.span>
+              return <chakra.span>{e}</chakra.span>;
             })}
           </HStack>
           <HStack display="flex" alignItems="center" spacing={1}>
@@ -110,16 +110,19 @@ export default function Navbar() {
                   />
                 </Flex>
                 <Button w="full" variant="ghost">
-                  Appointments
+                  videos
                 </Button>
                 <Button w="full" variant="ghost">
-                  Find Therapists
+                  Programmes
                 </Button>
                 <Button w="full" variant="ghost">
-                  Chat
+                  Live
                 </Button>
                 <Button w="full" variant="ghost">
-                  Mindfulness
+                  Magzine
+                </Button>
+                <Button w="full" variant="ghost">
+                  Academy
                 </Button>
                 <Button
                   onClick={() => navigate(ROUTES.LOGIN)}
